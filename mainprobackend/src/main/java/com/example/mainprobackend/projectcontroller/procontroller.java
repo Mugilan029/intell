@@ -1,22 +1,24 @@
 package com.example.mainprobackend.projectcontroller;
 
-import com.example.mainprobackend.projectentity.courseentity;
+import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.mainprobackend.projectentity.courseentity;
 import com.example.mainprobackend.projectentity.courseregisterentity;
 import com.example.mainprobackend.projectservice.proservice;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-import javax.swing.text.html.parser.Entity;
-import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:5500")
 public class procontroller {
 
 
-
+//gf
     @Autowired
     proservice proservice;
 
